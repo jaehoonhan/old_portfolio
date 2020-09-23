@@ -6,15 +6,17 @@
 
         <link rel="stylesheet" href="assets/css/styles.css">
         <!--change box icons-->
-        <title>Portfolio website complete</title>
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Jay Han's Website</title>
     </head>
     <body>
         
         <header class="l-header">
             <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Jaehoon</a>
-                </div>
+                <!--<div>
+                    <a href="#" class="nav__logo">Jay Han</a>
+                </div>-->
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
@@ -35,35 +37,38 @@
         <main class="l-main">
             <!--HOME-->
             <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Jay</span><br> Software Engineer</h1>
-
-                    <a href="#" class="button">Contact</a>
+                <div class="home__data">  
+                    <h1 class="home__title"><span class="home__title-color">Jay Han</span><br> Software Engineer</h1>
+                    <div class="button__container">
+                        <a href="#contact" class="button">Contact</a>
+                    </div>
                 </div>
 
-                <div class="home__social">
+                <div class="home__social"><!--
                     <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
                     <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
                     <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                -->
                 </div>
 
-                <div class="home__img">    
+                <!--<div class="home__img test">    
                     <img src="assets/img/perfil.png" alt="">
-                </div>
+                </div>-->
             </section>
 
             <!--ABOUT-->
-            <section class="about section " id="about">
+            <section class="about section" id="about">
                 <h2 class="section-title">About</h2>
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
+                        <img src="assets/img/Jay.jpeg" alt="Photo of myself">
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">I'm Jay</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <h2 class="about__subtitle">Welcome!</h2>
+                        <p class="about__text">My name is Jay Han. I am a Senior at CUNY John Jay College studying computer science and information security. Besides working towards my degree, my eagerness to learn new technologies has driven me to learn web development. <a href="#work" class="text_link">Check about my work</a>.</p>
+                        <p class="about__text">When I'm not using my brain, I enjoy using my body for basketball, volleyball, and olympic weightlifting.</p>           
                     </div>                                   
                 </div>
             </section>
@@ -75,7 +80,7 @@
                 <div class="skills__container bd-grid">          
                     <div>
                         <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <!--<p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>-->
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-html5 skills__icon'></i>
@@ -85,7 +90,7 @@
 
                             </div>
                             <div>
-                                <span class="skills__percentage">95%</span>
+                                <span class="skills__percentage">60%</span>
                             </div>
                         </div>
                         <div class="skills__data">
@@ -97,7 +102,7 @@
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">85%</span>
+                                <span class="skills__percentage">65%</span>
                             </div>
                         </div>
                         <div class="skills__data">
@@ -109,19 +114,19 @@
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">65%</span>
+                                <span class="skills__percentage">75%</span>
                             </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
+                                <i class='bx bx-code skills__icon'></i>
                                 <span class="skills__name">C++</span>
                             </div>
-                            <div class="skills__bar skills__ux">
+                            <div class="skills__bar skills__cpp">
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">85%</span>
+                                <span class="skills__percentage">75%</span>
                             </div>
                         </div>
                     </div>
@@ -135,7 +140,7 @@
             <!-- WORK -->
             <section class="work section" id="work">
                 <h2 class="section-title">Work</h2>
-
+                <h2 style="text-align: center;">Coming Soon!<br><a href="https://github.com/jaehoonhan" class="text_link">Check out my GitHub in the meantime.</a></h2>
                 <div class="work__container bd-grid">
                     <div class="work__img">
                         <img src="" alt="">
@@ -163,18 +168,17 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <p>jaehoonhan@gmail.com</p>
+                    <p>jaehoonhan1@gmail.com</p>
                 </div>
             </section>
         </main>
 
         <!--===== FOOTER =====-->
         <footer class="footer">
-            <p class="footer__title">Jay Han</p>
             <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.linkedin.com/in/jay-han-2938171a8/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.instagram.com/jaehoonhan/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/jaehoonhan" class="footer__icon"><i class='bx bxl-github' ></i></a>
             </div>
             <p> Made by Jay Han</p>
         </footer>
