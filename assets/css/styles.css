@@ -58,8 +58,11 @@ body{
   font-size: var(--normal-font-size);
   color: var(--second-color);
 }
-h1,h2,p{
+h1,h2,h3,p{
   margin: 0;
+}
+h3 {
+  font-size: var(--mb-2);
 }
 ul{
   margin: 0;
@@ -278,7 +281,7 @@ img{
   position: relative;
   font-weight: var(--font-semi);
   padding: .5rem 1rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-2);
   border-radius: .5rem;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
@@ -300,16 +303,22 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
+.pct__html{
   width: 60%;
 }
-.skills__css{
+.pct__css{
   width: 65%;
 }
-.skills__js{
-  width: 75%;
+.pct__js{
+  width: 70%;
 }
-.skills__cpp{
+.pct__cpp{
+  width:65%;
+}
+.pct__python{
+  width:75%;
+}
+.pct__swift{
   width:75%;
 }
 .skills__img{

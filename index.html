@@ -6,7 +6,7 @@
 
         <link rel="stylesheet" href="assets/css/styles.css">
         <!--change box icons-->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
         <title>Jay Han's Website</title>
     </head>
@@ -44,7 +44,7 @@
                     </div>
                 </div>
 
-                <div class="home__social"><!--
+                <div class="home__social"><!-- optional 
                     <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
                     <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
                     <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
@@ -67,8 +67,10 @@
                     
                     <div>
                         <h2 class="about__subtitle">Welcome!</h2>
-                        <p class="about__text">My name is Jay Han. I am a Senior at CUNY John Jay College studying computer science and information security. Besides working towards my degree, my eagerness to learn new technologies has driven me to learn web development. <a href="#work" class="text_link">Check out my work</a>.</p>
-                        <p class="about__text">When I'm not using my brain, I enjoy using my body for basketball, volleyball, and olympic weightlifting.</p>           
+                        <p class="about__text">My name is Jay Han. I am a Senior at John Jay College studying computer science and information security. 
+                            To supplement my education and further develop my programming skills, I've created entertaining and problem-solving projects with a focus on web development and iOS. 
+                            <a href="#work" class="text_link">Check out my work</a>.</p>
+                        <p class="about__text">In my free time, I enjoy staying active through basketball (go Spurs!), volleyball, and olympic weightlifting.</p>           
                     </div>                                   
                 </div>
             </section>
@@ -79,60 +81,85 @@
 
                 <div class="skills__container bd-grid">          
                     <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <!--<p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>-->
+                        <h3 class="skills__subtitle">Programming Languages</h2>
+                        <!--<p class="skills__text">Lorem ipsum dolor</p>-->
+                        <!-- PYTHON-->
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
+                                <img src="https://img.icons8.com/color/36/000000/python.png" class="skills__icon"/>
+                                <span class="skills__name">Python</span>
                             </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
+                            <div class="skills__bar pct__python"></div>
                             <div>
-                                <span class="skills__percentage">60%</span>
+                                <span class="skills__percentage">75%</span>
                             </div>
                         </div>
+                        <!--SWIFT-->
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
+                                <img src="https://img.icons8.com/fluent/36/000000/swift.png" class = "skills__icon"/>
+                                <span class="skills__name">Swift</span>
                             </div>
-                            <div class="skills__bar skills__css">
-                                
+                            <div class="skills__bar pct__swift"></div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <!-- JAVASCRIPT -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://img.icons8.com/color/36/000000/javascript.png" class="skills__icon"/>
+                                <span class="skills__name">JavaScript</span>
+                            </div>
+                            <div class="skills__bar pct__js"></div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <!-- C++ -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://img.icons8.com/color/36/000000/c-plus-plus-logo.png" class = "skills__icon"/>
+                                <span class="skills__name">C++</span>
+                            </div>
+                            <div class="skills__bar pct__cpp"> 
                             </div>
                             <div>
                                 <span class="skills__percentage">65%</span>
                             </div>
                         </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
+                    <!-- Technologies -->
+                    <div>
+                        <h3 class="skills__subtitle">Technologies</h2>
+                            <!-- HTML -->
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <img src="https://img.icons8.com/color/36/000000/html-5.png" class= "skills__icon"/>
+                                    <span class="skills__name">HTML5</span>
+                                </div>
+                                <div class="skills__bar pct__html">
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">60%</span>
+                                </div>
                             </div>
-                            <div class="skills__bar skills__js">
-                                
+                            <!--CSS-->
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <img src="https://img.icons8.com/color/36/000000/css3.png" class="skills__icon"/>
+                                    <span class="skills__name">CSS3</span>
+                                </div>
+                                <div class="skills__bar pct__css">       
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">65%</span>
+                                </div>
                             </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
+                        
+                        <div>              
+                            <img src="" alt="" class="skills__img">
                         </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-code skills__icon'></i>
-                                <span class="skills__name">C++</span>
-                            </div>
-                            <div class="skills__bar skills__cpp">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="" alt="" class="skills__img">
+                        <!-- <p><small>*Percentages based off new-grad skills</small></p> -->
                     </div>
                 </div>
             </section>
@@ -140,10 +167,10 @@
             <!-- WORK -->
             <section class="work section" id="work">
                 <h2 class="section-title">Work</h2>
-                <h2 style="text-align: center;">Coming Soon!<br><a href="https://github.com/jaehoonhan" class="text_link">Check out my GitHub in the meantime.</a></h2>
+                <!-- <h2 style="text-align: center;">Coming Soon!<br><a href="https://github.com/jaehoonhan" class="text_link">Check out my GitHub in the meantime.</a></h2> -->
                 <div class="work__container bd-grid">
                     <div class="work__img">
-                        <img src="" alt="">
+                        <img src="https://i.imgur.com/dqVLbFk.gif" alt="">
                     </div>
                     <div class="work__img">
                         <img src="" alt="">
